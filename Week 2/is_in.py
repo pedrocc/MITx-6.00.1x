@@ -17,7 +17,6 @@ def isIn(char, aStr):
     sizeStringBeginning = 0
     stringFinal = aStr
 
-
     if char > stringFinal[int(sizeStringFinal/2)]:
         sizeStringBeginning = int(sizeStringFinal/2)
         stringFinal = stringFinal[sizeStringBeginning:sizeStringFinal]
